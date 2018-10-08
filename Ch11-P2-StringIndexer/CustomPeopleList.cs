@@ -20,5 +20,11 @@ namespace Ch11_P2_StringIndexer
             get => (Person)peopleList[int.Parse(name)];
             //set => peopleList.Add(int.Parse(name));
         }
+
+        public Person this[int index]
+        {
+            get => (Person)peopleList[index];
+            //set => peopleList.Add(int.Parse(name));
+        }
     }
 }

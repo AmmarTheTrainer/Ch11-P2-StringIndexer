@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomPeopleList.cs" />
+    <Compile Include="IStringContainer.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SomeContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
